@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.display{
+    display:grid;
+    border: 5px solid black;
+    border-radius:  28px;
+    padding: 16px;
+    grid-template-columns: repeat(4,66px);
+   
+}
+
+input{
+    grid-column: span 4;
+    height: 68px;
+    width: 258px;
+    border-radius: 32px;
+    color: rgb(26, 25, 25);
+    padding: 20px;
+    margin: 40px 0px 30px 0px;
+}
+button{
+    border-radius: 32px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    font-size: 20px;
+}
+.equal{
+    width: 120px;
+    border-radius: 42px;
+}
